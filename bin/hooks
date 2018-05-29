@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ -d ".git/hooks" ]; then
+  cd .git/hooks && ln -sf ../../hooks/* .;
+  echo "Created symlink of .git/hooks to hooks folder"
+fi

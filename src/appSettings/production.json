@@ -1,0 +1,9 @@
+{
+  "env": "production",
+  "port": 3000,
+  "logLevel": "error",
+  "serverFolder": "",
+  "apiEndpoints": {
+    "graphql": "https://kqpvlzw807.lp.gql.zone/graphql"
+  }
+}

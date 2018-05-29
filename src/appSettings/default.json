@@ -1,0 +1,9 @@
+{
+  "env": "development",
+  "port": 3000,
+  "logLevel": "info",
+  "serverFolder": "",
+  "apiEndpoints": {
+    "graphql": "https://kqpvlzw807.lp.gql.zone/graphql"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "env": "test",
+  "port": 3000,
+  "logLevel": "info"
+}

@@ -1,0 +1,21 @@
+To stop
+docker stop $(docker ps -a -q)
+
+To remove all containers
+docker rm $(docker ps -a -q)
+
+To remove all image
+docker rmi $(docker images -q)
+
+To see all images
+docker images
+
+To build an image
+docker build -t <app name>:<version> <path to Dockerfile>
+
+to run container
+docker run -d -p <port exposed from container>:<port where app is running inside container> <app name>:<version>
+
+to see all running containers
+docker ps -a
+
