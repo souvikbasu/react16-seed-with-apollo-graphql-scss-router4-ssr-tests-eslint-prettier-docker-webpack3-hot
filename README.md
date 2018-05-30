@@ -12,6 +12,9 @@ Use this seed to create your own React app. It uses React v16 and has following 
 * Webpack 3
 * Hot reloading
 * Security
+* Compression
+
+The app is created by ejecting from Create React App cli
 
 ## Getting started
 
