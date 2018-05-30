@@ -13,6 +13,14 @@ Use this seed to create your own React app. It uses React v16 and has following 
 * Hot reloading
 
 ## Getting started
+
+Clone this repository
+
+```
+git clone https://github.com/souvikbasu/react16-seed-with-apollo-graphql-scss-router4-ssr-tests-eslint-prettier-docker-webpack3-hot.git
+```
+
+
 To install dependencies
 ```
 yarn
@@ -27,6 +35,7 @@ Access the app at http://localhost:3000
 
 
 To build production code
+
 ```
 yarn build
 ```
