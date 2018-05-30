@@ -11,6 +11,7 @@ Use this seed to create your own React app. It uses React v16 and has following 
 * Docker
 * Webpack 3
 * Hot reloading
+* Security
 
 ## Getting started
 
@@ -35,7 +36,6 @@ Access the app at http://localhost:3000
 
 
 To build production code
-
 ```
 yarn build
 ```
@@ -46,7 +46,8 @@ To run Node server (SSR)
 ```
 yarn run start:prod:server
 ```
-The above command runs the app on a production level node server
+The above command runs the app in a production level node server
 Access the app at http://localhost:3000
 
-Change `developer`, `production` and `tests` config at `./src/appSettings`
+### App configuration
+Change `developer`, `production` or `test` config at `./src/appSettings`
